@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 90vh;
+    background: #f6f6f6;
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    border: 3px solid #aaaaaa;
+    border-radius: 15px;
+    padding:1em;
+    margin: 4px;
+}
+
+.drop-zone {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:10em;
+    height:10em;
+    margin-right:0.5em;
+    margin-left:0.5em;
+    margin-top:0.5em;
+    margin-bottom: 0.5em;
+    border:3px solid #aaaaaa;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+}
+.block{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:10em;
+    height:10em;
+    margin-right:0.5em;
+    margin-left:0.5em;
+    margin-top:0.5em;
+    margin-bottom: 0.5em;
+    border:3px solid #aaaaaa;
+    background-color: #f0f0f0;
+    border-radius: 15px;   
+}

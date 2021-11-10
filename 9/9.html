@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ТортыПотаж</title>
+    <link href="9.css" rel="stylesheet" type="text/css">
+    <script defer src="9.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div> <img
+                    src="https://img.flaticon.com/icons/png/512/104/104468.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" class="logo">
+            </div>
+            <div class="slogan">Торты на заказ</div>
+            <div class="userName"> </div>
+            <div>
+                <button class="btnLogOn"> Войти </button>
+                <button class="btnOut"> Выйти </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div>
+                <img src="img/bg.jpeg">
+            </div>
+        </div>
+    </main>
+
+    <div class="modal hide">
+        <article class="fModal">
+            <span class="modalClose"> &times; </span>
+            <form id="authorization">
+                <h2>АВТОРИЗАЦИЯ</h2>
+                <div class="input"> <input type="text" id="login" name="login" placeholder="Логин" autocomplete="off">
+                </div>
+                <div class="input"> <input type="password" id="password" name="password" placeholder="Пароль"
+                        autocomplete="off"> </div>
+                <div id="error"> </div>
+                <button class="formBtnLogOn"> ВОЙТИ </button>
+            </form>
+        </article>
+    </div>
+</body>
+
+</html>

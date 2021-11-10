@@ -1,0 +1,80 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 5px solid #8675a9;
+    font-family: DejaVu Sans Mono, monospace;
+    color: #8675a9;
+    }
+    .card{
+    border: 5px solid #c3aed6;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: DejaVu Sans Mono, monospace;
+    color: #8675a9;
+    
+    }
+    
+    .btn-delete{
+        background: white;
+        color: #8675a9;
+        font-family: DejaVu Sans Mono, monospace;
+        border-radius: 15px;
+        padding: 2px;
+    }
+    .btn-info{
+        color: #8675a9;
+        background-color: white;
+        font-family: DejaVu Sans Mono, monospace;
+        border-radius: 15px;
+        padding: 2px;
+    }
+
+    .modal-active{
+    display: flex;
+    }
+    
+    .modal-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(206, 206, 206, 0.7);
+    display: flex;
+    
+    }
+    .modal-wrapper.hide {
+    display: none;
+    }
+    
+    .card-modal {
+    position: relative;
+    margin: auto;
+    min-width: 100px;
+    max-width: 300px;
+    min-height: 200px;
+    background: #fff;
+    border: 2px solid rgb(189, 189, 189);
+    padding: 20px;
+    font-family: DejaVu Sans Mono, monospace;
+    color: #8675a9;
+    
+    }
+    
+    .modal-close {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    }
+    
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
